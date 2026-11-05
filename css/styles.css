@@ -1147,6 +1147,8 @@ h1, h2, h3 { margin: 0; }
 /* ---------- Appointments ---------- */
 
 .booking { margin-top: 10px; }
+.booking__fallback { margin: 0 0 12px; font-size: .95rem; }
+.booking__fallback a { color: var(--blue); font-weight: 700; }
 /* Google Calendar's booking page */
 .booking iframe {
   display: block;
