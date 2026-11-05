@@ -1,0 +1,10 @@
+# Local preview settings for this computer only
+.claude/
+
+# Upload zips made for GoDaddy
+*.zip
+
+# Editor and system files
+.DS_Store
+Thumbs.db
+.vscode/

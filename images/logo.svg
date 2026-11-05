@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 120" role="img" aria-labelledby="logo-title">
+  <title id="logo-title">N.Y.S. Discount Tire &amp; Auto</title>
+  <defs>
+    <pattern id="checks" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#fff"/>
+      <rect width="5" height="5" fill="#111"/>
+      <rect x="5" y="5" width="5" height="5" fill="#111"/>
+    </pattern>
+  </defs>
+
+  <!-- Checkered flags -->
+  <g transform="rotate(-16 45 45)">
+    <path d="M8 22q16-9 32 0t32 0v42q-16-9-32 0t-32 0z" fill="url(#checks)" stroke="#111" stroke-width="1.5"/>
+  </g>
+  <g transform="rotate(16 255 45)">
+    <path d="M228 22q16-9 32 0t32 0v42q-16-9-32 0t-32 0z" fill="url(#checks)" stroke="#111" stroke-width="1.5"/>
+  </g>
+
+  <!-- Oval badge -->
+  <ellipse cx="150" cy="63" rx="112" ry="50" fill="#d8441c"/>
+  <ellipse cx="150" cy="63" rx="106" ry="45" fill="#151a35"/>
+  <ellipse cx="150" cy="63" rx="106" ry="45" fill="none" stroke="#2c3a7a" stroke-width="2"/>
+
+  <!-- Wordmark -->
+  <text x="150" y="52" text-anchor="middle" textLength="190" lengthAdjust="spacingAndGlyphs" font-family="Georgia, 'Times New Roman', serif" font-weight="700" font-size="24" fill="#fff" stroke="#000" stroke-width="1.5" paint-order="stroke">N.Y.S. DISCOUNT</text>
+  <text x="150" y="90" text-anchor="middle" textLength="186" lengthAdjust="spacingAndGlyphs" font-family="'Arial Black', 'Arial Bold', Impact, sans-serif" font-weight="900" font-style="italic" font-size="34" fill="#ff7a1a" stroke="#6e0d05" stroke-width="3" paint-order="stroke" letter-spacing="1">TIRE &amp; AUTO</text>
+</svg>
