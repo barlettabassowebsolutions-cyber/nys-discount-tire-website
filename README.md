@@ -33,6 +33,14 @@ Open `index.html` in a browser, or serve the folder with any static server, for 
 npx serve .
 ```
 
+## Preview link to share
+
+https://barlettabassowebsolutions-cyber.github.io/nys-discount-tire-website/
+
+GitHub Pages rebuilds this preview a minute or two after each change to `main`
+(see `.github/workflows/preview.yml`). It asks search engines not to list it, so it
+won't compete with the real site. The booking calendar on it is the real one.
+
 ## Putting it on GoDaddy
 
-Upload everything except `tools/`, `data/`, `README.md` and `.gitignore` into the hosting account's `public_html` folder.
+Upload everything except `tools/`, `data/`, `.github/`, `README.md` and `.gitignore` into the hosting account's `public_html` folder.
